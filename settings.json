@@ -24,6 +24,14 @@
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
     },
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "node_modules": true
+    },
     "files.associations": {
       ".sequelizerc": "javascript",
       ".stylelintrc": "json",
@@ -69,7 +77,7 @@
       "tsconfig.json": "tune",
       "*.proto": "3d"
     },
-    "workbench.colorTheme": "Andromeda",
+    "workbench.colorTheme": "Aura Soft Dark",
     "window.menuBarVisibility": "toggle",
     "editor.minimap.enabled": false,
     "[dart]": {
@@ -83,5 +91,8 @@
       "editor.suggestSelection": "first",
       "editor.tabCompletion": "onlySnippets",
       "editor.wordBasedSuggestions": false
-    }
+    },
+    "git.autofetch": true,
+    "scm.alwaysShowActions": true,
+    "scm.alwaysShowRepositories": true
   } 

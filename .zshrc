@@ -111,7 +111,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
+LS_COLORS=$LS_COLORS:'ow=01;34:' ; export LS_COLORS
 
 SPACESHIP_PROMPT_ORDER=(
   user          # Username section
@@ -188,3 +188,5 @@ pastefinish() {
 zstyle :bracketed-paste-magic paste-init pasteinit
 zstyle :bracketed-paste-magic paste-finish pastefinish
 ### End of Zinit's installer chunk### End of Zinit's installer chunk
+
+unsetopt PROMPT_SP
